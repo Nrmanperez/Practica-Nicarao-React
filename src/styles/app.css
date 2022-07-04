@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.container-form-list {
+    margin-top: 50px;
+    display: flex;
+}
+
+.container-form {
+    width: 40%;
+}
+
+.container-list {
+    width: 60%;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.formulario {
+    box-shadow: 1px 11px 3px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+.container-label-input {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+input {
+    border: 5px;
+    width: 97%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    background-color: darkturquoise;
+    width: 97%;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.listado-contactos {
+    box-shadow: 1px 11px 3px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.name-list {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.name-list span {
+    font-weight: normal;
+    text-transform: none;
+}
+
+.error {
+    width: 97%;
+    padding: 10px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.container-contact-button {
+    width: 20%;
+    padding: 20px;
+}
+
+.eliminar {
+    background-color: red;
+    width: auto;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: white;
+}
